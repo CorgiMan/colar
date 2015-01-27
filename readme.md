@@ -20,4 +20,4 @@ Just run your program like normal and pipe the output into colar
 go run main.go | colar
 ```
 
-During compilation errors and panics go files and line numbers turn op red. During a panic colar appends a summary to the end of the output. The summary informs the user about the number of goroutines that were running at the time of the panic and the file the panic occured in.
+During compilation errors and panics, outputted go files and line numbers turn op red. During a panic colar appends a summary to the end of the output. The summary informs the user about the number of goroutines that were running at the time of the panic and the file the panic occured in.
